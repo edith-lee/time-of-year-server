@@ -30,6 +30,6 @@ if (!isDevMode) {
 }
 app.use(middleware);
 
-app.use(router);
+app.use(router());
 
 app.listen(3000);
